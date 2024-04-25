@@ -1,0 +1,61 @@
+/* For the container */
+.rental-container {
+  position: relative;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+/* For the gradient */
+.grad {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 1.3rem;
+}
+
+/* For the image */
+.rental-image {
+  object-fit: cover;
+  border-radius: 1.3rem;
+  height: 20rem; /* Change according to your needs */
+  width: 100%;
+}
+
+/* For the title */
+.rental-title {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  bottom: 6rem; /* Adjust as needed */
+  left: 1.5rem; /* Adjust as needed */
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* For the description */
+.rental-description {
+  padding-top: 0.75rem; /* Adjust as needed */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* For the left side of the description */
+.rental-description-left {
+  margin-right: 1rem; /* Adjust as needed */
+}
+
+/* For the price */
+.rental-price {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+/* For the rating */
+.rental-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem; /* Adjust as needed */
+}

@@ -1,0 +1,5 @@
+.home__section {
+    display: grid;
+    padding: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}

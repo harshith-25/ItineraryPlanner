@@ -1,0 +1,37 @@
+/* For the grid container */
+.rentals-container {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr)); /* default for mobile */
+    gap: 2rem;
+    justify-content: space-around;
+}
+  
+  @media (min-width: 640px) {
+    .rentals-container {
+      grid-template-columns: repeat(1, minmax(0, 1fr)); /* 2 columns for small screens */
+    }
+}
+  
+  @media (min-width: 768px) {
+    .rentals-container {
+      grid-template-columns: repeat(1, minmax(0, 1fr)); /* 3 columns for medium screens */
+    }
+}
+  
+  @media (min-width: 1024px) {
+    .rentals-container {
+      grid-template-columns: repeat(2, minmax(0, 1fr)); /* 4 columns for large screens */
+    }
+}
+  
+  @media (min-width: 1280px) {
+    .rentals-container {
+      grid-template-columns: repeat(3, minmax(0, 1fr)); /* 5 columns for extra large screens */
+    }
+}
+  
+  /* For the gap between grid items */
+  .rental-item {
+    margin-bottom: 1rem; /* Adjust as needed */
+}
+  
